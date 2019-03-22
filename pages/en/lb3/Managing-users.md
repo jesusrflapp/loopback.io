@@ -130,7 +130,6 @@ You cannot directly modify built-in models such as the User model with the [ACL 
 However, you can create a custom model that extends the built-in User model,
 then use the ACL generator to define access controls that are added to those of the default User model.
 For example, you could create a Customer or Client model that [extends the built-in User model](Extending-built-in-models.html), and then modify that model's ACL with the tool.
-Since a model doesn't inherit ACLs from its base model, you must define ACLs for the new custom model.
 " %}
 
 ### User realms
